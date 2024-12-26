@@ -9,13 +9,13 @@ type Book struct {
 	title string
 }
 
-func (b Book) String() string {
+func Books(b Book) String() string {
 	return fmt.Sprint("The title of the Book is ", b.title)
 }
 
 type count int
 
-func (c count) String() string {
+func Counts(c count) String() string {
 	return fmt.Sprint("Tis is te Number ", strconv.Itoa(int(c)))
 }
 
