@@ -13,8 +13,15 @@ func (b Book) String() string {
 	return fmt.Sprint("The title of the Book is ", b.title)
 }
 
-type count int
+type Count int
 
-func (c count) String() string {
+func (c Count) String() string {
 	return fmt.Sprint("Tis is te Number ", strconv.Itoa(int(c)))
 }
+
+/*func main() {
+	b := Book{title: "ADFSRF"}
+	var c count = 42
+	fmt.Println(b)
+	fmt.Println(c)
+}*/
