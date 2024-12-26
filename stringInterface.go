@@ -1,4 +1,4 @@
-package StringerInterface
+package github.com/Kishore545/StringerInterface
 
 import (
 	"fmt"
