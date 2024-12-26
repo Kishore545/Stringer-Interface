@@ -1,4 +1,4 @@
-package Stringer-Interface
+package StringerInterface
 
 import (
 	"fmt"
