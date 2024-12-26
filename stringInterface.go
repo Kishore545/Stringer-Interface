@@ -1,4 +1,4 @@
-package main
+package Stringer-Interface
 
 import (
 	"fmt"
@@ -19,9 +19,6 @@ func (c count) String() string {
 	return fmt.Sprint("Tis is te Number ", strconv.Itoa(int(c)))
 }
 
-func main() {
-	b := Book{"West with the Night"}
-	var c count = 42
-	fmt.Println(b)
-	fmt.Println(c)
-}
+
+	
+
